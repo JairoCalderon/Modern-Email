@@ -55,6 +55,30 @@
 			vertical-align: top;
 			text-align: center;
 		}
+
+		.three-columns {
+			text-align: center;
+			font-size: 0;
+			padding: 15px 0 20px;
+		}
+
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+		}
+
+		.three-columns .padding {
+			padding: 15px;
+		}
+
+		.three-columns .content {
+			font-size: 15px;
+			line-height: 20px;
+			padding: 0 5px;
+		}
 	</style>
 </head>
 
@@ -113,10 +137,122 @@
 			</tr>
 
 			<!-- THREE COLUMN SECTION -->
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td class="three-columns">
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="./img/email.png" alt="Email icon"
+																width="130" style="max-width:130px"></a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p style="font-weight:bold; font-size:17px">Ecommerce</p>
+														<p>Responsive HTML Email Template Course to marter email
+															development</p>
 
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="./img/settings.png" alt="Email icon"
+																width="130" style="max-width:130px"></a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p style="font-weight:bold; font-size:17px">Web Design</p>
+														<p>Responsive HTML Email Template Course to marter email
+															development</p>
+
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="./img/home.png" alt="Email icon"
+																width="130" style="max-width:130px"></a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p style="font-weight:bold; font-size:17px">HTML Email</p>
+														<p>Responsive HTML Email Template Course to marter email
+															development</p>
+
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
 			<!-- TWO COLUMN SECTION -->
-
+			<tr>
+				<td style="background-color: #26292b; color:#ffffff;">
+					<table width="100%">
+						<tr>
+							<td class="two-columns last">
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="./img/keyboard.jpg" alt="Keyboard"
+																width="100%" style="max-width:260px"></a>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+											<table class="content">
+												<tr>
+													<td>
+														<p style="font-weight:
+														bold; font-size: 18px;"> Create Custom Designs</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
 			<!-- TITLE, TEXT & BUTTON -->
 
@@ -130,10 +266,10 @@
 
 </html>
 
-<div style="position:absolute;bottom: 0;width: 100%;text-align: center;line-height: 40px;font-size: 25px;">
+<!-- <div style="position:absolute;bottom: 0;width: 100%;text-align: center;line-height: 40px;font-size: 25px;">
 	<a href="https://responsivehtmlemail.com/html-email-course/" target="_blank"
 		style="color: #404577;text-decoration: none;">www.ResponsiveHTMLEmail.com</a>
-</div>
+</div> -->
 
 
 
@@ -148,11 +284,11 @@
 	}
 </style>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-sm btn-danger"
+<!-- <button type="button" class="btn btn-sm btn-danger"
 	style="position: absolute; right: 7px; bottom: 7px;transition: transform .3s ease;" data-toggle="modal"
 	data-target="#socialModal">
 	Subscribe!
-</button>
+</button> -->
 <!-- Modal -->
 <!-- <div class="modal fade" id="socialModal" style="font-family: 'Poppins', sans-serif;">
 	<div class="modal-dialog modal-md" role="document">
